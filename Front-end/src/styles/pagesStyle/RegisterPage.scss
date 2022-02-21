@@ -1,0 +1,38 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 50vw;
+  box-shadow: 1px 1px 50px yellow;
+
+
+
+  label {
+    color: white;
+  }
+}
+
+input {
+  margin: 20px;
+  width: 20vw;
+  height: 4vh;
+}
+
+
+.radio {
+  height: 15px;
+  width: 15px;
+}
+
+button {
+  width: 20vw;
+  height: 4vh;
+  margin: 40px;
+}

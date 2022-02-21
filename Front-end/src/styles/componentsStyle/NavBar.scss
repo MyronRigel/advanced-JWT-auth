@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 800px;
+  a {
+    transition: 500ms;
+  }
+  a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 40px green;
+    transform: scale(1.2);
+  }
+}
+
+.search {
+  background-color: greenyellow;
+  width: max(50vw);
+}
+
+.sell-icon {
+  width: 30px;
+}
+
+.sell {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  font-size: 1.3em;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}

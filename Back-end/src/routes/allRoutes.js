@@ -1,0 +1,1 @@
+module.exports.userRouter = require('./users/user.router')
